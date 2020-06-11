@@ -38,25 +38,25 @@ export class LadaboutusComponent implements OnInit, OnDestroy  {
   ngOnInit() {
    
     this.slidesL.push({
-      image: "http://localhost:4200" + this.all_b_c
+      image: "https://vitthallad.github.io/ladagarbatti" + this.all_b_c
     });
     this.slidesL.push({
-      image:  "http://localhost:4200" + this.all_b
+      image:  "https://vitthallad.github.io/ladagarbatti" + this.all_b
     });
     this.slidesL.push({
-      image:  "http://localhost:4200" + this.haripriya_b_c
+      image:  "https://vitthallad.github.io/ladagarbatti" + this.haripriya_b_c
     });
     this.slidesL.push({
-      image:  "http://localhost:4200" + this.deccan_b_c
+      image:  "https://vitthallad.github.io/ladagarbatti" + this.deccan_b_c
     });
     this.slidesL.push({
-      image: "http://localhost:4200" + this.rajashri_b_c
+      image: "https://vitthallad.github.io/ladagarbatti" + this.rajashri_b_c
     });
     this.slidesL.push({
-      image:  "http://localhost:4200" + this.deccan_s_c
+      image:  "https://vitthallad.github.io/ladagarbatti" + this.deccan_s_c
     });
     this.slidesL.push({
-      image:  "http://localhost:4200" + this.rajashree_s_c
+      image:  "https://vitthallad.github.io/ladagarbatti" + this.rajashree_s_c
     });
   
 }

@@ -33,16 +33,16 @@ export class RajashreeComponent implements OnInit, OnDestroy  {
   ngOnInit() {
    
     this.slidesL.push({
-      image: "http://localhost:4200" + this.rajashree_b_oo
+      image: "https://vitthallad.github.io/ladagarbatti" + this.rajashree_b_oo
     });
     this.slidesL.push({
-      image:  "http://localhost:4200" + this.rajashree_b_cc
+      image:  "https://vitthallad.github.io/ladagarbatti" + this.rajashree_b_cc
     });
     this.slidesR.push({
-      image:  "http://localhost:4200" + this.rajashree_s_c
+      image:  "https://vitthallad.github.io/ladagarbatti" + this.rajashree_s_c
     });
     this.slidesR.push({
-      image:  "http://localhost:4200" + this.rajashree_s_o
+      image:  "https://vitthallad.github.io/ladagarbatti" + this.rajashree_s_o
     });
 }
   ngOnDestroy(): void {

@@ -42,16 +42,16 @@ export class DeccanComponent implements OnInit , OnDestroy {
     //this.trustedUrl = this.sanitizer.bypassSecurityTrustUrl(baseURL);
     console.log('1');
     this.slidesL.push({
-      image: "http://localhost:4200" + this.deccan_b_cc
+      image: "https://vitthallad.github.io/ladagarbatti" + this.deccan_b_cc
     });
     this.slidesL.push({
-      image:  "http://localhost:4200" + this.deccan_b_oo
+      image:  "https://vitthallad.github.io/ladagarbatti" + this.deccan_b_oo
     });
     this.slidesR.push({
-      image:  "http://localhost:4200" + this.deccan_s_c
+      image:  "https://vitthallad.github.io/ladagarbatti" + this.deccan_s_c
     });
     this.slidesR.push({
-      image:  "http://localhost:4200" + this.deccan_s_o
+      image:  "https://vitthallad.github.io/ladagarbatti" + this.deccan_s_o
     });
 }
   ngOnDestroy(): void {

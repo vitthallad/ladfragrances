@@ -35,5 +35,33 @@ export const navItems: INavData[] = [
     url: '/theme/indiaqueen',
     icon: 'icon-magic-wand'
   },
+  
+  {
+    title: true,
+    name: 'Other Products'
+  },{
+    name: 'All Products',
+    url: '/allProducts',
+    icon: 'icon-cursor'
+  }
+  ,{
+    name: 'Gandham',
+    url: '/gandham',
+    icon: 'icon-location-pin'
+  },
+  {
+      name: 'KumKum',
+      url: '/kumkum',
+      icon: 'icon-drop'
+  },
+  {
+    title: true,
+    name: 'Contact Us'
+  },
+  {
+    name: 'Contact',
+    url: '/contactUs',
+    icon: 'icon-location-pin'
+},
 
 ];

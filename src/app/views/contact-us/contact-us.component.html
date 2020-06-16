@@ -2,7 +2,7 @@
 
     <div class="row">
         <div class="col-sm-6 col-md-6">
-          <div class="card text-white bg-danger">
+          <div class="card border-success">
             <div class="card-header">
              Address
             </div>
@@ -16,7 +16,7 @@
           </div>
         </div>
         <div class="col-sm-6 col-md-6">
-            <div class="card text-white bg-danger">
+            <div class="card border-success">
               <div class="card-header">
                Contact Numbers
               </div>
@@ -27,5 +27,20 @@
               </div>
             </div>
           </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-12">
+          
+          
+            <agm-map 
+            [latitude]="17.677726" 
+            [longitude]="75.336118">
+              <agm-marker 
+              [latitude]="17.677726" 
+              [longitude]="75.336118">
+            </agm-marker>
+            </agm-map>
+        </div>
+        
       </div>
   </div>

@@ -1,0 +1,27 @@
+import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
+import { ChartsModule } from 'ng2-charts';
+import { CarouselModule } from 'ngx-bootstrap/carousel';
+import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
+import { ButtonsModule } from 'ngx-bootstrap/buttons';
+import { CommonModule } from '@angular/common';
+
+
+
+
+import { GandhamComponent } from './gandham.component';
+import { GandhamRoutingModule } from './gandham-routing.module';
+
+@NgModule({
+  declarations: [GandhamComponent],
+  imports: [
+    FormsModule,
+    CommonModule,
+    ChartsModule,
+    BsDropdownModule,
+    CarouselModule,
+    GandhamRoutingModule,
+    ButtonsModule.forRoot()
+  ]
+})
+export class GandhamModule { }

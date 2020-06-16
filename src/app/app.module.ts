@@ -6,6 +6,7 @@ import { CarouselModule } from 'ngx-bootstrap/carousel';
 import { PerfectScrollbarModule } from 'ngx-perfect-scrollbar';
 import { PERFECT_SCROLLBAR_CONFIG } from 'ngx-perfect-scrollbar';
 import { PerfectScrollbarConfigInterface } from 'ngx-perfect-scrollbar';
+import { AgmCoreModule } from '@agm/core';
 
 const DEFAULT_PERFECT_SCROLLBAR_CONFIG: PerfectScrollbarConfigInterface = {
   suppressScrollX: true
@@ -46,6 +47,10 @@ import { ChartsModule } from 'ng2-charts';
 @NgModule({
   imports: [
     BrowserModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyB2vQWK6m_DDcovpdwgb2pqAwxNMsqbLY8',
+      libraries: ["places", "geometry"]
+    }),
     BrowserAnimationsModule,
     AppRoutingModule,
     AppAsideModule,
@@ -63,9 +68,7 @@ import { ChartsModule } from 'ng2-charts';
     AppComponent,
     ...APP_CONTAINERS,
     P404Component,
-    P500Component,
-    
-    //LadaboutusComponent,
+    P500Component
   ],
   providers: [{
     provide: LocationStrategy,

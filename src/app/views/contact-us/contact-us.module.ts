@@ -20,10 +20,10 @@ import { MouseEvent } from '@agm/core';
     CarouselModule,
     ContactUsRoutingModule,
     ButtonsModule.forRoot(),
-    AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyB2vQWK6m_DDcovpdwgb2pqAwxNMsqbLY8',
-      libraries: ["places", "geometry"]
-    })
+    // AgmCoreModule.forRoot({
+    //   apiKey: 'AIzaSyB2vQWK6m_DDcovpdwgb2pqAwxNMsqbLY8',
+    //   libraries: ["places", "geometry"]
+    // })
   ],
   declarations: [ ContactUsComponent ]
 

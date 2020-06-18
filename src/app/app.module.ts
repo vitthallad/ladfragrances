@@ -47,10 +47,10 @@ import { ChartsModule } from 'ng2-charts';
 @NgModule({
   imports: [
     BrowserModule,
-    // AgmCoreModule.forRoot({
-    //   apiKey: 'AIzaSyB2vQWK6m_DDcovpdwgb2pqAwxNMsqbLY8',
-    //   libraries: ["places", "geometry"]
-    // }),
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyB2vQWK6m_DDcovpdwgb2pqAwxNMsqbLY8',
+      libraries: ["places", "geometry"]
+    }),
     BrowserAnimationsModule,
     AppRoutingModule,
     AppAsideModule,
